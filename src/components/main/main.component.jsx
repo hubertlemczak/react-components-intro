@@ -1,16 +1,14 @@
 import './main.styles.css';
+import Button from '../button/button.component';
+import Logo from '../logo/logo.component';
 
 const Main = () => (
   <main>
-    <img
-      className="logo"
-      src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-      alt="Google logo"
-    />
+    <Logo />
     <input className="search-bar" type="search" />
     <div className="buttons">
-      <button>Google Search</button>
-      <button>Feeling Lucky</button>
+      <Button buttonText={'Google Search'} />
+      <Button buttonText={'Feeling Lucky'} />
     </div>
   </main>
 );

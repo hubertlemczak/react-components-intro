@@ -1,0 +1,7 @@
+main .buttons button {
+  padding: 7px 13px;
+  border: none;
+  border-radius: 3px;
+  color: #000000bb;
+  font-size: 0.85rem;
+}
